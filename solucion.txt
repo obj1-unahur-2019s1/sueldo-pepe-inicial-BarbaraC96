@@ -1,0 +1,42 @@
+object bonoPorcentaje {
+	method monto(empleado)
+}
+object bonoMontoFijo {
+	method monto(empleado) { return 800
+}
+object bonoPresentismoNormal {
+	
+}
+object bonoPesentismoAjuste {
+	}
+	
+object bonoDemagogico {
+	}
+	
+object bonoNulo{ 
+	}
+
+object pepe {
+	var categorias = gerente
+	var BonoPresentismo = bonoNulo 
+	var BonoResultado = bonoNulo
+	var CantidadFaltas = 0
+	method sueldoDePepe() {return gerente }
+	method sueldoDePepe(cadete) { return cadete }
+
+
+}
+
+
+object gerente {
+	method cantidadFaltas(cantidadFaltas) { return cantidadFaltas
+	}
+    method categorias(categorias) { return categorias
+    	
+    }
+	method BonoPresentismo(bonoPresentismo) { return bonoPresentismo.falta()
+		
+	}
+	method BonoResultado(bonoResultado) { return bonoResultado.monto()
+	
+}
